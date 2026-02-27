@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veritas Consulting</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Podstawowy styl strony */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        nav a {
+            color: #fff;
+            margin-left: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            background-color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 200px;
+        }
+
+        .service h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Veritas Consulting</h1>
+        <nav>
+            <a href="#about">O nas</a>
+            <a href="#services">Usługi</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <h2>Witamy na stronie Veritas Consulting!</h2>
+            <p>Pomagamy firmom rozwijać się dzięki skutecznym strategiom i rozwiązaniom biznesowym.</p>
+        </section>
+
+        <section id="about">
+            <h2>O nas</h2>
+            <p>Jesteśmy zespołem ekspertów w dziedzinie konsultingu i zarządzania projektami. Nasza misja to wspieranie firm w osiąganiu sukcesu.</p>
+        </section>
+
+        <section id="services">
+            <h2>Nasze usługi</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Strategia biznesowa</h3>
+                    <p>Tworzymy kompleksowe strategie dopasowane do potrzeb Twojej firmy.</p>
+                </div>
+                <div class="service">
+                    <h3>Analiza danych</h3>
+                    <p>Pomagamy w analizie i wykorzystaniu danych do podejmowania lepszych decyzji.</p>
+                </div>
+                <div class="service">
+                    <h3>Szkolenia</h3>
+                    <p>Oferujemy szkolenia dla zespołów w zakresie zarządzania i rozwoju kompetencji.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Napisz do nas: <a href="mailto:kontakt@veritasconsulting.com">kontakt@veritasconsulting.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Veritas Consulting. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script>
+        console.log("Strona Veritas Consulting załadowana!");
+    </script>
+</body>
+</html>
